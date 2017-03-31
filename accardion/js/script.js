@@ -6,7 +6,7 @@ accordion.addEventListener('click', function(event) {
     var parent = item.parentNode.parentNode;
 item.nextElementSibling.style.transition = "all 0.5s";
     if (item.nextElementSibling.style.maxHeight) {
-        item.nextElementSibling.style.maxHeight =0;
+        item.nextElementSibling.style.maxHeight =null;
     } else {
         item.nextElementSibling.style.maxHeight = 100;
         for (var i = 0; i < parent.childElementCount; i++) {
