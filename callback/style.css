@@ -1,0 +1,14 @@
+#daire{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background: crimson; 
+     float: left;
+      margin: 20px;
+      margin-top: 70px; 
+}
+img{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+}
